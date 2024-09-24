@@ -281,6 +281,14 @@ body {
 
 
 
+@media (max-width: 500px){
+  #terminal_image{
+    display: block;
+  }
+}
+
+
+
 
 
 
