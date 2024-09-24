@@ -84,9 +84,9 @@ Visit `http://localhost:3000` to view the project locally.
 ## 📧 Contact Me
 If you have any questions or want to discuss opportunities, feel free to reach out!
 
-📩 **Email**: [your.email@example.com](mailto:your.email@example.com)
+📩 **Email**: [avinashreddy1315@gmail.com](mailto:avinashreddy1315@gmail.com)
 
-👨‍💼 **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-linkedin)
+👨‍💼 **LinkedIn**: [Avinash Reddy](https://www.linkedin.com/in/avinash-reddy-7a780a1bb/)
 
 ---
 
@@ -94,12 +94,4 @@ If you have any questions or want to discuss opportunities, feel free to reach o
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 ```
 
-### Key Customizations Needed:
-- **Live Demo Link**: Replace `https://your-website-link.com` with the actual deployed portfolio link.
-- **Images**: Replace `path-to-banner-image` and `path-to-screenshot` with the actual URLs of the banner or screenshots.
-- **Contact Info**: Update the contact details to include your email and LinkedIn profile.
-  
-### Icons:
-- **Badges** from [shields.io](https://shields.io) are used to represent the technologies visually.
-  
-Feel free to tweak the wording or add any additional sections as you see fit! Let me know if you'd like further customization.
+#
