@@ -72,7 +72,7 @@ Visit `http://localhost:3000` to view the project locally.
 
 ## 📸 Screenshots
 
-![Screenshot](path-to-screenshot)
+![Screenshot](public/sc/1.png)
 
 ---
 
