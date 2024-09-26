@@ -1,9 +1,7 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect, useState, Suspense } from 'react';
 import Globe from 'react-globe.gl';
 import Button from '../component/Button';
-import { Canvas } from '@react-three/fiber';
-import Telephone from '../component/Telephone';
-import { OrbitControls } from '@react-three/drei';
+
 
 const About = () => {
   const globeRef = useRef();
@@ -101,18 +99,30 @@ const About = () => {
             </div>
             <div>
                 <p className='grid-subtext'>I am based in Nashua, US, and I am open to relocation anywhere within the US or remote work opportunities.</p>
-                <Button name="Contact Me" isBeam  containerClass = " w-full mt-10"/>
+                <a
+                    href="#contact"
+                    className='w-fit'
+                    onClick={(e) => {
+                        e.preventDefault();
+                        const aboutSection = document.getElementById('contact');
+                        const offset = 100; // Custom offset value
+                        const y = aboutSection.getBoundingClientRect().top + window.pageYOffset - offset;
+                        window.scrollTo({ top: y, behavior: 'smooth' });
+                    }}
+                ><Button name="Contact Me" isBeam  containerClass = " w-full mt-10"/></a>
+                
             </div>
             </div>
         </div>
 
         <div className='xl:col-span-2 xl:row-span-3'>
             <div className='grid-container'>
+              
                <img src='/assets/coding.png' alt='coding.png' className='w-full sm:h-[276px] h-fit object-contain'/>
-               <div>
-              <p className='grid-headtext'>My Passion for Coding</p>
-              <p className='grid-subtext'>I love sloving problems and building things through code. Coding isn't just my profession-it is my passion</p>
-            </div>
+                <div>
+                  <p className='grid-headtext'>My Passion for Coding</p>
+                  <p className='grid-subtext'>I love sloving problems and building things through code. Coding isn't just my profession-it is my passion</p>
+                </div>
             </div>
         </div>
 

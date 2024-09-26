@@ -253,7 +253,7 @@ export const navLinks = [
           path: 'assets/technologies_logo/node-js-icon.webp',
         },
         {
-          //jsonwebtoken  javascript
+          
           id: 3,
           name: 'Express js',
           path: '/assets/technologies_logo/express-js.png',

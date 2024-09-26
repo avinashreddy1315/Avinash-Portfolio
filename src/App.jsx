@@ -5,6 +5,8 @@ import About from './sections/About'
 import Projects from './sections/Projects'
 import Clients from './sections/Clients'
 import Contact from './sections/Contact'
+import Footer from './sections/Footer'
+import Experience from './sections/experience'
 
 const App = () => {
   return (
@@ -20,9 +22,13 @@ const App = () => {
         <section id="project" className='block'>
           <Projects/>
         </section>
+        <section  className='block'>
+          <Experience/>
+        </section>
         <section id="contact" className='block'>
           <Contact/>
         </section>
+        <Footer/>
         
       </div>
       {/* Add other sections here with appropriate IDs */}
