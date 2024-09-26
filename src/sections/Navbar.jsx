@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { navLinks } from '../constants'; // Assuming the path is correct
+import ResumeButton from '../component/ResumeButton';
+
+
 
 const NavItems = ({ activeSection, handleClick }) => {
     return (
@@ -26,8 +29,7 @@ const Navbar = () => {
         e.preventDefault();
         const section = document.querySelector(href);
     
-        // Scroll to the section smoothly, then adjust the scroll position for an offset (e.g., navbar height)
-        const offset = 100; // You can adjust this value according to your navbar height
+        const offset = 100; // Adjust this value according to your navbar height
         const sectionPosition = section.getBoundingClientRect().top + window.pageYOffset - offset;
     
         window.scrollTo({
@@ -37,7 +39,6 @@ const Navbar = () => {
     
         setActiveSection(href.slice(1)); // Manually set the active section when clicking on nav links
     };
-    
 
     useEffect(() => {
         const sections = document.querySelectorAll('section');
@@ -79,14 +80,26 @@ const Navbar = () => {
                     </button>
                     <nav className='sm:flex hidden'>
                         <NavItems activeSection={activeSection} handleClick={handleClick} />
+                        {/* Add Resume Button */}
+                        <div className="ml-4">
+                           <ResumeButton/>
+                        </div>
                     </nav>
                 </div>
             </div>
-            <div className={`nav-sidebar ${isOpen ? 'max-h-screen' : 'max-h-0'}`}>
+            
+            <div className={`nav-sidebar ${isOpen ? 'max-h-screen' : 'max-h-0'} flex flex-row`}>
                 <nav className="p-5">
                     <NavItems activeSection={activeSection} handleClick={handleClick} />
+                    {/* Add Resume Button in mobile menu */}
+                        <div className='mx-7 mt-4'>
+                        <ResumeButton />
+                        </div>
+                        
+                    
                 </nav>
             </div>
+            
         </header>
     );
 };
