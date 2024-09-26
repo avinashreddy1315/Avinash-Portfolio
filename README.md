@@ -93,6 +93,4 @@ If you have any questions or want to discuss opportunities, feel free to reach o
 📩 **Email**: [avinashreddy1315@gmail.com](mailto:avinashreddy1315@gmail.com)
 
 👨‍💼 **LinkedIn**: [Avinash Reddy](https://www.linkedin.com/in/avinash-reddy-7a780a1bb/)
-```
 
-#
