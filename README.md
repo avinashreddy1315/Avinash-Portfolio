@@ -4,7 +4,8 @@
 ![Portfolio Banner](path-to-banner-image)
 
 ## 🌐 Live Demo
-Check out my portfolio live: [Avinash Reddy]([https://avinash-reddy-portfolio.vercel.app])
+Check out my portfolio live: [Avinash Reddy](https://avinash-reddy-portfolio.vercel.app)
+
 
 ---
 
