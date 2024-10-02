@@ -11,11 +11,13 @@ const Developer = ({ animationName = 'idle', ...props }) => {
   const { animations: idleAnimations } = useFBX('/models/animations/idle.fbx') || { animations: [] };
   const { animations: clappingAnimation } = useFBX('/models/animations/clapping.fbx') || { animations: [] };
   const { animations: saluteAnimation } = useFBX('/models/animations/salute.fbx') || { animations: [] };
+  const { animations: victoryAnimation } = useFBX('/models/animations/victory.fbx') || { animations: [] };
 
   // Check if animations are loaded before proceeding
   if (idleAnimations.length > 0) idleAnimations[0].name = 'idle';
   if (clappingAnimation.length > 0) clappingAnimation[0].name = 'clapping';
   if (saluteAnimation.length > 0) saluteAnimation[0].name = 'salute';
+  if (victoryAnimation.length > 0) victoryAnimation[0].name = 'victory';
 
   // Use the animations hook and ensure animations are passed only if they exist
   const { actions } = useAnimations(
@@ -23,6 +25,7 @@ const Developer = ({ animationName = 'idle', ...props }) => {
       idleAnimations[0] || null,
       clappingAnimation[0] || null,
       saluteAnimation[0] || null,
+      victoryAnimation[0] || null,
     ].filter(Boolean), // Filter out null animations
     group
   );
