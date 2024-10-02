@@ -51,7 +51,7 @@ const About = () => {
             <img src="/assets/grid1.png" alt='grid-1' className='animate-spin-photo w-full sm:h-[276px] h-fit object-contain'/>
             <div>
               <p className='grid-headtext'>Hi, I'm Avinash Reddy</p>
-              <p className='grid-subtext'>With 1.5 years of corporate experience and 5 years of personal experience, I have honed my skills in frontend and backend development with passion.</p>
+              <p className='grid-subtext'>With 3.5 years of corporate experience and 5 years of personal experience, I have honed my skills in frontend and backend development with passion.</p>
             </div>
           </div>
         </div>
