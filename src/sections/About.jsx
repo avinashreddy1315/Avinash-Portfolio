@@ -36,7 +36,7 @@ const About = () => {
 
 
   const handleCopy = () =>{
-    navigator.clipboard.writeText('avinashreddy1315@gmail.com');
+    navigator.clipboard.writeText('avinash.r@careeritjob.com');
     setCopied(true);
     setTimeout(() => {
         setCopied(false)
@@ -51,7 +51,7 @@ const About = () => {
             <img src="/assets/grid1.png" alt='grid-1' className='animate-spin-photo w-full sm:h-[276px] h-fit object-contain'/>
             <div>
               <p className='grid-headtext'>Hi, I'm Avinash Reddy</p>
-              <p className='grid-subtext'>With 3+ years of corporate experience and 5 years of personal experience, I have honed my skills in frontend and backend development with passion.</p>
+              <p className='grid-subtext'>Full Stack Developer with 3 years of experience creating scalable digital solutions across domains. Skilled in optimizing performance and enhancing user engagement to drive business impact through innovative development and quality-focused execution.</p>
             </div>
           </div>
         </div>
@@ -133,7 +133,7 @@ const About = () => {
                 <p className='grid-subtext text-center'>Contact me</p>
                 <div className='copy-container' onClick={handleCopy}>
                     <img src={copied ? 'assets/tick.svg' : 'assets/copy.svg'} alt='copy'/>
-                    <p className='lg:text-2xl md:text-xl font-medium text-gray_gradient text-white'>avinashreddy1315@gmail.com</p>
+                    <p className='lg:text-2xl md:text-xl font-medium text-gray_gradient text-white'>avinash.r@careeritjob.com</p>
                 </div>
 
             </div>

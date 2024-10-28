@@ -301,7 +301,7 @@ export const navLinks = [
       title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
       icon: '/assets/framer.svg',
       animation: 'victory',
-    }, */
+    }, 
     {
       id: 1,
       name: 'Lumen Technologies',
@@ -328,6 +328,25 @@ export const navLinks = [
       title: "Developed user-friendly and visually appealing web interfaces, improving overall user experience. Decreased debugging time by 35% through improved error handling, and enhanced user conversion rates by 30% with new features like booking consultations and coupon integration. Improved mobile usability by 40% with responsive web pages and ensured accessibility compliance for an inclusive experience. Collaborated with teams to streamline communication and boost project efficiency by 25%.",
       icon: '/assets/brain.png',
       animation: 'victory',
+    }, */
+
+    {
+      id: 1,
+      name: 'FreeLancer (Remote) ',
+      pos: 'Full Stack Developer / ',
+      duration: '2024 [May] - 2024 [Oct]',
+      title: "Developed user-friendly and visually appealing web interfaces, improving overall user experience. Decreased debugging time by 35% through improved error handling, and enhanced user conversion rates by 30% with new features like booking consultations and coupon integration. Improved mobile usability by 40% with responsive web pages and ensured accessibility compliance for an inclusive experience. Collaborated with teams to streamline communication and boost project efficiency by 25%.",
+      icon: '/assets/freelance.webp',
+      animation: 'victory',
+    },
+    {
+      id: 2,
+      name: 'Vivma Software Inc',
+      pos: 'Full Stack Developer',
+      duration: '2021 [Jan] - 2023 [July]',
+      title: "Developed user-friendly and visually appealing web interfaces, improving overall user experience. Decreased debugging time by 35% through improved error handling, and enhanced user conversion rates by 30% with new features like booking consultations and coupon integration. Improved mobile usability by 40% with responsive web pages and ensured accessibility compliance for an inclusive experience. Collaborated with teams to streamline communication and boost project efficiency by 25%.",
+      icon: '/assets/software.jpg',
+      animation: 'salute',
     },
   ];
 
