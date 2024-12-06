@@ -15,6 +15,7 @@
     "@react-symbols/icons": "^1.2.6",
     "@react-three/drei": "^9.112.0",
     "@react-three/fiber": "^8.17.7",
+    "docker": "^1.0.0",
     "gsap": "^3.12.5",
     "leva": "^0.9.35",
     "maath": "^0.10.8",
