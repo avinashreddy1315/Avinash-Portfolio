@@ -332,11 +332,11 @@ export const navLinks = [
 
     {
       id: 1,
-      name: 'FreeLancer (Remote) ',
-      pos: 'Full Stack Developer / ',
-      duration: '2024 [May] - 2024 [Oct]',
-      title: "Developed a responsive e-commerce platform using React.js, Node.js, and Tailwind CSS, boosting mobile conversions by 35% and managing 1,000+ daily users. Designed a secure framework with Spring Security and PostgreSQL, achieving 99.9% uptime and reducing cart abandonment. Built RESTful APIs with Java and Node.js, optimizing performance with Jest testing and Swagger documentation. Created a SaaS analytics dashboard using the MERN stack, Flask, and AWS (EC2, RDS), integrating Firebase for real-time inventory tracking. Implemented Java-based microservices for data processing, ensuring scalability and seamless integration with cloud environments. Streamlined deployments with CI/CD pipelines, GitHub, and Kubernetes, and improved code quality with JUnit and Mockito testing in an Agile environment.",
-      icon: '/assets/freelance.webp',
+      name: 'Cisco',
+      pos: 'Full Stack Developer ',
+      duration: '2024 [May] - Present',
+      title: "Engineered responsive, modular user interfaces using React and TypeScript, seamlessly integrating with backend services to enhance user engagement and streamline workflow processes.Delivered customer features utilizing core Java, Spring Boot, and Java 8+ enhancements (Lambda, Stream API) to generate over $15M in revenue, resolve 20+ customer triages, and fix 15+ critical bugs.Architected high-volume microservices using Java 9 and Akka Streams, achieving 99% reliability while processing 5M+ daily meetings.Constructed RESTful web services with Spring Boot and Jersey (JAX-RS) to produce both XML and JSON, thereby increasing data accessibility by 30%.Optimized database performance via Hibernate ORM and JPA to generate custom reports, reducing latency by 15%.Orchestrated the migration of CI/CD pipelines from Jenkins to Kubernetes, enhancing pipeline robustness, improving deployment agility, and reducing infrastructure costs by 25%.Integrated a unified API leveraging Java 9 and Akka Streams to merge calendar data from O365, Google, and Exchange, streamlining meeting scheduling for over 100,000 daily appointments.Engineered a modular user data obfuscation solution with Java, Cassandra, and React to ensure 100% GDPR compliance and bolster data security.Streamlined asynchronous messaging systems via JMS, Kafka, and Akka, elevating real-time data processing capabilities by 20%.Instituted rigorous unit and integration testing practices using JUnit, Mockito, and Spring Test frameworks, expanding test coverage .Applied industry best practices (SOLID principles, design patterns) and leveraged Maven/Gradle for build automation to refine multi-module Java applications.Managed on-call and SRE responsibilities using Docker, Jenkins, and AWS CloudFormation, ensuring 99.9% uptime through effective deployment and monitoring.Collaborated within Agile SCRUM teams driving sprint planning and daily stand ups to boost overall team productivity.",
+      icon: '/assets/cisco.webp',
       animation: 'victory',
     },
     {
@@ -345,7 +345,7 @@ export const navLinks = [
       pos: 'Full Stack Developer',
       duration: '2021 [Jan] - 2023 [July]',
       title: "Developed an EHR system for a healthcare client using the MERN stack with Redux, integrating Java-based microservices for patient data processing and AWS deployment automation, achieving faster data access and 95% positive user feedback. Designed a scalable patient portal with TypeScript, React.js, and GraphQL, leveraging AWS (EC2, S3, RDS) and WebSocket for real-time features, ensuring 99.9% uptime with Docker containerization. Architected PostgreSQL schemas and deployed RESTful APIs using Node.js/Express.js, optimizing performance with Redis caching and secure data handling through Cypress testing. Led application development with React.js, Bootstrap, and Java (Spring Boot, Spring MVC, Spring Security), automating appointment scheduling and telemedicine integration. Built cross-platform solutions with React Native and Vue.js, integrating payment gateways and Firebase, and collaborated in an Agile environment to deliver high-performance, user-focused applications.",
-      icon: '/assets/software.jpg',
+      icon: '/assets/vivma.png',
       animation: 'salute',
     },
   ];

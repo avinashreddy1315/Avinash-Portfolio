@@ -8,7 +8,7 @@ const Footer = () => {
                 <a className='social-icon' href='https://github.com/avinashreddy1315' target="_blank" rel='noreferrer'>
                     <img src='/assets/github.svg' alt='github' className='w-1/2 h-1/2'/>
                 </a>
-                <a className='social-icon' href='https://www.linkedin.com/in/avinash-reddy1315' target="_blank" rel='noreferrer'>
+                <a className='social-icon' href='https://www.linkedin.com/in/avinash1315/' target="_blank" rel='noreferrer'>
                     <img src='/assets/linkedin.webp' alt='LinkedIn' className='w-1/2 h-1/2 invert'/>
                 </a>
                 

@@ -35,7 +35,7 @@ const Experience = () => {
                             onPointerOut={() =>setAnimationName('idle')} className='work-content_container group'>
                                 <div className='flex flex-col h-full justify-start items-center py-2'>
                                     <div className='work-content_logo'>
-                                        <img src={icon} alt='logo' className={`w-full h-full ${id === 1 ? 'invert' : ''}`}
+                                        <img src={icon} alt='logo' className={`w-full h-full `}
                                         />
                                     </div>
                                     <div className='work-content_bar'/>

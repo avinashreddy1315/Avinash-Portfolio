@@ -61,7 +61,7 @@ const About = () => {
             <img src='/assets/grid2.png' alt='grid-2' className=' w-full sm:h-[276px] h-fit object-contain'/>
             <div>
               <p className='grid-headtext'>Tech Stack</p>
-              <p className='grid-subtext'>I specialize in JavaScript with a focus on React and Node.js ecosystem.</p>
+              <p className='grid-subtext'>I specialize in Java, Spring Boot, JavaScript with a focus on React and Node.js ecosystem.</p>
             </div>
           </div>
         </div>
@@ -133,7 +133,7 @@ const About = () => {
                 <p className='grid-subtext text-center'>Contact me</p>
                 <div className='copy-container' onClick={handleCopy}>
                     <img src={copied ? 'assets/tick.svg' : 'assets/copy.svg'} alt='copy'/>
-                    <p className='lg:text-2xl md:text-xl font-medium text-gray_gradient text-white'>avinash.r@careeritjob.com</p>
+                    <p className='lg:text-2xl md:text-xl font-medium text-gray_gradient text-white'>avinash@jobstechmails.com</p>
                 </div>
 
             </div>
